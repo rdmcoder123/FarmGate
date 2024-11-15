@@ -43,7 +43,7 @@ const Header = () => {
               <SearchInput />
               <li className="nav-item">
                 <NavLink to="/" className="nav-link ">
-                  Home
+                  Home Vaanga
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
