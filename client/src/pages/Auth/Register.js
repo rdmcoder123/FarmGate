@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
-import vid from "../Auth/1.mp4"
+import vid from "../Auth/2.mp4"
 const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -39,7 +39,7 @@ const Register = () => {
   };
 
   return (
-    <Layout title="Register - AgriShop">
+    <Layout title="Register - FarmGate">
       <video className="background-video" autoPlay loop muted >
             <source src={vid} type='video/mp4' />
             <source src={vid} type="video/ogg" /> 
